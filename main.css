@@ -1,0 +1,15 @@
+body{
+    background-color: rgba(0, 0, 0);
+    background-blend-mode:multiply ;
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.navbar{
+    display: inline-block;
+}
+.logo{
+    width: 50vw;
+    height: 10vw;
+}
