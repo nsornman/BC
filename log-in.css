@@ -6,10 +6,9 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-/* ----------------------------Nav Bar------------------------------------ */
-.navbar{
+/* -----------------------------------Nav Bar--------------------------------------- */
+nav{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     background-color: #15499a;
     width: 100%;
@@ -17,21 +16,19 @@ body{
     position: fixed;
     top: 0;
     left: 0;   
+    justify-content: center;
 }
     
 .logo{
     width: 7vw;
     height: 2.5vw;
+    position: absolute;
+    left: 5vw;
+    
 }
-nav a{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.1vw;
+.text-login{
     color: aliceblue;
-    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
 }
-nav a:hover{
-    color: #59acff;
-    transform: scale(1.3);
-    transition: transform 0.4s ease, color 2s ease;
-}
-/* ----------------------------Nav Bar------------------------------------ */
+/* -----------------------------------Nav Bar--------------------------------------- */
